@@ -1,8 +1,3 @@
-@extends('layouts.admin')
-
-@section('title', 'ニュースの新規作成')
-
-@section('content')
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
