@@ -25,7 +25,7 @@ Route::group(['prefix' => 'admin'], function() {
   Route::get('news/delete', 'Admin\NewsController@delete')->middleware('auth');
 });
 
-Route::get('XXX', 'Admin\AAAController@bbb');
+//Route::get('XXX', 'Admin\AAAController@bbb');
 
 Route::get('admin/profile/create', 'Admin\ProfileController@add');
 Route::get('admin/profile/edit', 'Admin\ProfileController@edit');
