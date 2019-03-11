@@ -29,4 +29,11 @@ class NewsController extends Controller
 
         return view('news.index', ['headline' => $headline, 'posts' => $posts, 'cond_title' => $cond_title]);
     }
+
+    public function profile(Request $request)
+    {
+      $profiles = Profile::all();
+
+      return view('news.profile',['profile' => $profiles]);
+    }
 }
